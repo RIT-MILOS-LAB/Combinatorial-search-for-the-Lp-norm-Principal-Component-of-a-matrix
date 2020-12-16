@@ -2,7 +2,7 @@ import numpy as np
 from exhaustive_search_solver import *
 # D: number of rows (features)
 # N: nimber of columns (data measuremnts)
-D,N=3,10
+D,N=3,6
 
 p=1/2
 X=np.random.randn(D,N)

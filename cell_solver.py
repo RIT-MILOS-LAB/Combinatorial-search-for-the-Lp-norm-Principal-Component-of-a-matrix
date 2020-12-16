@@ -3,7 +3,7 @@ import cvxpy as cp
 
 def cell_solver(X,b,p):
     B=np.diag(b)
-    Y=X.dot(B)
+    Y=X @ B
     D=X.shape[0]
     
     # CVX solver starts here
@@ -12,7 +12,7 @@ def cell_solver(X,b,p):
     constraints = [cp.norm(qcp) <= 1]
     prob = cp.Problem(cp.Maximize(cost), constraints)
     prob.solve()
-    q=qcp.value
-    metric=prob.value
+    q = qcp.value
+    metric = prob.value
     
     return q, metric 
