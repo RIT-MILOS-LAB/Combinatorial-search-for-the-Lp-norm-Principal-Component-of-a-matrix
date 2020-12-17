@@ -2,11 +2,13 @@ import numpy as np
 from exhaustive_search_solver import *
 # D: number of rows (features)
 # N: nimber of columns (data measuremnts)
-D,N=3,6
+print(20*'\n')
+D,N=4,8
 
-p=1/2
+p=4/5
 X=np.random.randn(D,N)
 q, metric = exhaustive_search_solver(X , p)
 
 print(q)
+print(q.T @ q)
 print(metric)
