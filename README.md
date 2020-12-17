@@ -7,7 +7,7 @@ It solves LpPCA exactly by means of combinatorial optimization. LpPC_exact_exhau
 # LpBF.py
 It approximates the exact solution to LpPCA by means of optimal single bit-flips. LpBF.py mplements the algorithm presented in [2].
 
+----------------------------
+[1]  D. G. Chachlakis and P. P. Markopoulos, Combinatorial search for the Lp-norm principal component of a matrix, in Proceedings IEEE Asilomar Conference on Signals, Systems, and Computers (IEEE ACSSC 2019), Pacific Grove, CA, November 2019.
 
-# [1]  D. G. Chachlakis and P. P. Markopoulos, Combinatorial search for the Lp-norm principal component of a matrix, in Proceedings IEEE Asilomar Conference on Signals, Systems, and Computers (IEEE ACSSC 2019), Pacific Grove, CA, November 2019.
-
-# [2] D. G. Chachlakis and P. P. Markopoulos, Novel Algorithms for Lp-quasi-norm Principal-Component Analysis, in Proceedings European Signal Processing Conference (EUSIPCO 2020), Amsterdam, NL, January 2021. 
+[2] D. G. Chachlakis and P. P. Markopoulos, Novel Algorithms for Lp-quasi-norm Principal-Component Analysis, in Proceedings European Signal Processing Conference (EUSIPCO 2020), Amsterdam, NL, January 2021. 
