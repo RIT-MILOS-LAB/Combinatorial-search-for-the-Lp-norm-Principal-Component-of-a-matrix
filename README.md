@@ -9,5 +9,8 @@ It approximates the exact solution to LpPCA by means of optimal single bit-flips
 
 ----------------------------
 [1]  D. G. Chachlakis and P. P. Markopoulos, Combinatorial search for the Lp-norm principal component of a matrix, in Proceedings IEEE Asilomar Conference on Signals, Systems, and Computers (IEEE ACSSC 2019), Pacific Grove, CA, November 2019.
+DOI: 10.1109/IEEECONF44664.2019.9048980
+Link: https://ieeexplore.ieee.org/document/9048980
 
 [2] D. G. Chachlakis and P. P. Markopoulos, Novel Algorithms for Lp-quasi-norm Principal-Component Analysis, in Proceedings European Signal Processing Conference (EUSIPCO 2020), Amsterdam, NL, January 2021. 
+Link: https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/pdfs/0001045.pdf
