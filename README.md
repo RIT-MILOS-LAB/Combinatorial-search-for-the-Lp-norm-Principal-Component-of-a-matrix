@@ -3,7 +3,7 @@ Exact and approximate algorithms for solving Lp-quasinorm (*p &le; 1*) Principal
 
 -LpPC_exact_exhaustive.py: solves LpPCA exactly by means of combinatorial optimization. LpPC_exact_exhaustive.py implements the algorithm presented in [1].
 
--LpBF.py: approximates the exact solution to LpPCA by means of optimal single bit-flips. LpBF.py mplements the algorithm presented in [2].
+-LpBF.py: approximates the exact solution to LpPCA by means of optimal single bit-flips. LpBF.py implements the algorithm presented in [2].
 
 ----------------------------
 [1]  D. G. Chachlakis and P. P. Markopoulos, Combinatorial search for the Lp-norm principal component of a matrix, in Proceedings IEEE Asilomar Conference on Signals, Systems, and Computers (IEEE ACSSC 2019), Pacific Grove, CA, November 2019.
