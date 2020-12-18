@@ -3,10 +3,12 @@ import cvxpy as cp
 import math
 import cvxopt 
 
+# X is assumed to have full-row rank.
 def LpPC_exact_exhaustive(X , p, verbose=0):
-    D, N = X.shape[0], X.shape[1]
+    D = X.shape[0]
+    N = X.shape[1]
     B = bin_array_2D(N)
-    b=B[0,:]
+    b = B[0,:]
     q_best, metric_best, solved_status=cell_solver(X,b,p,verbose)
 
     cells_solved=0
@@ -31,7 +33,6 @@ def LpPC_exact_exhaustive(X , p, verbose=0):
             q_best=q
             metric_best=metric
 
-    
 
     exp_num=0
     for i in range(D):
@@ -58,7 +59,7 @@ def bin_array_2D(N):
     L=2**N
     B=np.zeros((L,N))
     for n in range(L):
-        B[n:,:]=bin_array_1D(n, N)
+        B[n,:]=bin_array_1D(n, N)
     return 2*B-1
 
 def cell_solver(X,b,p, verbose=0):
