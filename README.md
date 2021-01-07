@@ -6,7 +6,7 @@ Formally, for any $p\leq 1$, the provided script solves
 ![equation](https://latex.codecogs.com/svg.latex?%5Cdpi%7B150%7D%20%5Cfn_cm%20%5CLARGE%20%5Cunderset%7B%5Cmathbf%20q%20%5Cin%20%5Cmathbb%20R%5ED%7E%3B%7E%5C%7C%5Cmathbf%20q%5C%7C_2%3D1%7D%7B%5Ctext%7Bmax.%7D%7D%5Cleft%5C%7C%5Cmathbf%20X%5E%5Ctop%5Cmathbf%20q%5Cright%5C%7C_p%5Ep.)
 ---
 * IEEEXplore article: https://ieeexplore.ieee.org/document/9048980
-* Source code:
+* Source code: https://github.com/dgchachlakis/Combinatorial-search-for-the-Lp-norm-Principal-Component-of-a-matrix
 ---
 **Questions/issues**
 
