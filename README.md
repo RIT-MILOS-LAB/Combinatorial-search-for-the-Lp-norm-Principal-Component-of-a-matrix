@@ -16,7 +16,7 @@ Inquiries regarding the scripts provided below are cordially welcome. In case yo
 **Citing**
 
 If you use our algorihtms, please cite [[1]](https://ieeexplore.ieee.org/document/9048980).
-```
+```bibtex
 @INPROCEEDINGS{lpnormPC,
   author={D. G. {Chachlakis} and P. P. {Markopoulos}},
   booktitle={2019 53rd Asilomar Conference on Signals, Systems, and Computers}, 
